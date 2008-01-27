@@ -1,0 +1,4 @@
+category: OCaml
+requires: ocaml
+sdesc: "OCaml daemon tools library"
+ldesc: "OCaml daemon tools library"
