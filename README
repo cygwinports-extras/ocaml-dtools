@@ -3,15 +3,15 @@ ocaml-dtools
 OCaml daemon tools library
 
 Runtime requirements:
-  ocaml-3.10.0-1
+  ocaml-3.10.2-1
 
 Build requirements:
-  cygwin-1.5.25-7
-  binutils-20060817-1
-  cygport-0.3.8-1
+  cygwin-1.5.25-15
+  binutils-20080624-2
+  cygport-0.4.3-1
   gcc-core-3.4.4-3
-  make-3.81-1
-  ocaml-findlib-1.2.1-1
+  make-3.81-2
+  ocaml-findlib-1.2.2-1
 
 Canonical website:
   http://savonet.sourceforge.net/wiki/OCamlLibs
@@ -22,15 +22,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack ocaml-dtools-0.1.5-X-src.tar.bz2
+  unpack ocaml-dtools-0.1.6-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./ocaml-dtools-0.1.5-X.cygport all
+  cygport ./ocaml-dtools-0.1.6-X.cygport all
 
 This will create:
-  /usr/src/ocaml-dtools-0.1.5-X-src.tar.bz2
-  /usr/src/ocaml-dtools-0.1.5-X.tar.bz2
+  /usr/src/ocaml-dtools-0.1.6-X-src.tar.bz2
+  /usr/src/ocaml-dtools-0.1.6-X.tar.bz2
 
 -------------------------------------------
 
@@ -40,15 +40,19 @@ Files included in the binary package:
   /usr/lib/ocaml/3.10/dtools/dtools.a
   /usr/lib/ocaml/3.10/dtools/dtools.cma
   /usr/lib/ocaml/3.10/dtools/dtools.cmi
+  /usr/lib/ocaml/3.10/dtools/dtools.cmx
   /usr/lib/ocaml/3.10/dtools/dtools.cmxa
   /usr/lib/ocaml/3.10/dtools/dtools.mli
-  /usr/share/doc/ocaml-dtools-0.1.5/COPYING
-  /usr/share/doc/ocaml-dtools-0.1.5/Changes
-  /usr/share/doc/ocaml-dtools-0.1.5/README
+  /usr/share/doc/ocaml-dtools-0.1.6/COPYING
+  /usr/share/doc/ocaml-dtools-0.1.6/Changes
+  /usr/share/doc/ocaml-dtools-0.1.6/README
 
 ------------------
 
 Port Notes:
+
+----- version 0.1.6-1 -----
+Version bump.
 
 ----- version 0.1.5-1 -----
 Initial release for Cygwin.
