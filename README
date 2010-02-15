@@ -3,15 +3,15 @@ ocaml-dtools
 OCaml daemon tools library
 
 Runtime requirements:
-  ocaml-3.10.2-1
+  ocaml-3.11.2-1
 
 Build requirements:
-  cygwin-1.5.25-15
-  binutils-20080624-2
-  cygport-0.4.3-1
-  gcc-core-3.4.4-3
+  cygwin-1.7.1-1
+  binutils-2.19.51-1
+  cygport-0.9.80-1
+  gcc4-core-4.3.4-3
   make-3.81-2
-  ocaml-findlib-1.2.2-1
+  ocaml-findlib-1.2.5-1
 
 Canonical website:
   http://savonet.sourceforge.net/wiki/OCamlLibs
@@ -34,28 +34,10 @@ This will create:
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/ocaml/3.10/dtools/META
-  /usr/lib/ocaml/3.10/dtools/dtools.a
-  /usr/lib/ocaml/3.10/dtools/dtools.cma
-  /usr/lib/ocaml/3.10/dtools/dtools.cmi
-  /usr/lib/ocaml/3.10/dtools/dtools.cmx
-  /usr/lib/ocaml/3.10/dtools/dtools.cmxa
-  /usr/lib/ocaml/3.10/dtools/dtools.mli
-  /usr/share/doc/ocaml-dtools-0.1.6/COPYING
-  /usr/share/doc/ocaml-dtools-0.1.6/Changes
-  /usr/share/doc/ocaml-dtools-0.1.6/README
-
-------------------
-
 Port Notes:
 
------ version 0.1.6-1 -----
-Version bump.
-
------ version 0.1.5-1 -----
-Initial release for Cygwin.
+----- version 0.1.6-2 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
