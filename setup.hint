@@ -1,4 +1,0 @@
-category: OCaml
-requires: ocaml-base
-sdesc: "OCaml daemon tools library"
-ldesc: "OCaml daemon tools library"
